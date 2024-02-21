@@ -7,6 +7,8 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    hlsearch = true, -- Set highlight on search
+    scrolloff = 8, -- show at least these num of lines when scrolling
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
