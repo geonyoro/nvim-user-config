@@ -27,6 +27,7 @@ return {
       { "<leader>gg", ":Git<CR>",        desc = "Git Window" },
     },
   },
+
   -- "andweeb/presence.nvim",
   -- {
   --   "ray-x/lsp_signature.nvim",
