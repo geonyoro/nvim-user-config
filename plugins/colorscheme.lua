@@ -3,14 +3,15 @@ return {
     -- Theme inspired by Atom
     "navarasu/onedark.nvim",
     name = "onedark",
-    opts = {
-      options = {
-        style = "warm",
-      },
-    },
-    -- config = function()
-    --   vim.cmd.colorscheme("monokai")
-    -- end,
+    config = function()
+      require('onedark').setup {
+        -- term_colors = false,
+        style = 'darker',
+        -- code_style = {
+        --   keywords = 'bold',
+        -- }
+      }
+    end
   },
   {
     "loctvl842/monokai-pro.nvim",

@@ -18,6 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
+  -- colorscheme = "onedark",
   colorscheme = "monokai-pro",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
