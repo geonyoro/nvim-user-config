@@ -46,6 +46,7 @@ return {
       { "<leader>gg", ":Git<CR>",        desc = "Git Window" },
     },
   },
+  {"mattn/emmet-vim"},
 
   -- "andweeb/presence.nvim",
   -- {
