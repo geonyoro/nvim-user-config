@@ -19,8 +19,8 @@ return {
     config = function()
       require("monokai-pro").setup({
         -- filter = "octagon"
-        filter = "classic"
-        -- filter = "machine"
+        -- filter = "classic"
+        filter = "machine"
       })
     end
   }
