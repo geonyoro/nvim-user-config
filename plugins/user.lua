@@ -47,7 +47,8 @@ return {
       { "<leader>gg", ":Git<CR>",        desc = "Git Window" },
     },
   },
-  {"mattn/emmet-vim"},
+  {'neoclide/coc.nvim', branch = 'release'},
+  {"neoclide/coc-emmet"},
 
   -- "andweeb/presence.nvim",
   -- {
