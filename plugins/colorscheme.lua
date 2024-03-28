@@ -20,7 +20,7 @@ return {
       require("monokai-pro").setup({
         -- filter = "octagon"
         -- filter = "classic"
-        filter = "machine"
+        -- filter = "machine"
       })
     end
   }
