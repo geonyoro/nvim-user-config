@@ -49,6 +49,8 @@ return {
   },
   {'neoclide/coc.nvim', branch = 'release'},
   {"neoclide/coc-emmet"},
+  -- {"folke/todo-comments.nvim"},
+  {"AmeerTaweel/todo.nvim"},
 
   -- "andweeb/presence.nvim",
   -- {

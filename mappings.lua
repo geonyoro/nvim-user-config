@@ -19,6 +19,7 @@ return {
     -- },
 
     -- mappings seen under group name "Buffer"
+    ["<leader>f"] = {"<cmd>silent !tmux neww tmux-sessionizer<CR>", desc="Tmux Session"},
     ["<leader>bD"] = {
       function()
         require("astronvim.utils.status").heirline.buffer_picker(
@@ -27,7 +28,7 @@ return {
       end,
       desc = "Pick to close",
     },
-  ["<leader><space>"] = { function() require("telescope.builtin").buffers() end, desc = "Find buffers" },
+    ["<leader><space>"] = { function() require("telescope.builtin").buffers() end, desc = "Find buffers" },
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
