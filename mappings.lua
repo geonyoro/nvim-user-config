@@ -19,7 +19,7 @@ return {
     -- },
 
     -- mappings seen under group name "Buffer"
-    ["<leader>f"] = {"<cmd>silent !tmux neww tmux-sessionizer<CR>", desc="Tmux Session"},
+    ["<leader>fp"] = { "<cmd>silent !tmux neww tmux-sessionizer<CR>", desc = "Tmux Session" },
     ["<leader>bD"] = {
       function()
         require("astronvim.utils.status").heirline.buffer_picker(
