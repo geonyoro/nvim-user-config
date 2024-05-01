@@ -11,6 +11,7 @@ return {
     wrap = true, -- sets vim.opt.wrap
     hlsearch = true, -- Set highlight on search
     scrolloff = 8, -- show at least these num of lines when scrolling
+    colorcolumn = "100",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
