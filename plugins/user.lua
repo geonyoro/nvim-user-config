@@ -11,7 +11,7 @@ return {
       "TmuxNavigateRight",
       "TmuxNavigatePrevious",
     },
-    event = 'VeryLazy',
+    event = "VeryLazy",
     keys = {
       { "<c-h>", "<cmd><C-U>TmuxNavigateLeft<cr>" },
       { "<c-j>", "<cmd><C-U>TmuxNavigateDown<cr>" },
@@ -21,36 +21,40 @@ return {
     },
   },
   {
-    'linux-cultist/venv-selector.nvim',
+    "linux-cultist/venv-selector.nvim",
     opts = {
-      name = {"venv", ".venv", "env", ".env"}
+      name = { "venv", ".venv", "env", ".env" },
     },
-    event = 'VeryLazy',
+    event = "VeryLazy",
     keys = {
       -- Keymap to open VenvSelector to pick a venv.
-      { '<leader>vs', '<cmd>VenvSelect<cr>' },
+      { "<leader>vs", "<cmd>VenvSelect<cr>" },
       -- Keymap to retrieve the venv from a cache (the one previously used for the same project directory).
-      { '<leader>vc', '<cmd>VenvSelectCached<cr>' },
+      { "<leader>vc", "<cmd>VenvSelectCached<cr>" },
     },
   },
   {
-    "ellisonleao/glow.nvim", 
-    config = true, 
-    cmd = "Glow", 
-    keys= {
+    "ellisonleao/glow.nvim",
+    config = true,
+    cmd = "Glow",
+    keys = {
       { "<leader>vl", ":Glow<CR>", desc = "Glow: Show markdown." },
-    }},
+    },
+  },
   {
     "tpope/vim-fugitive",
     keys = {
       { "<leader>gs", ":Git status<CR>", desc = "Git Status" },
-      { "<leader>gg", ":Git<CR>",        desc = "Git Window" },
+      { "<leader>gg", ":Git<CR>", desc = "Git Window" },
     },
   },
-  {'neoclide/coc.nvim', branch = 'release'},
-  {"neoclide/coc-emmet"},
+  { "neoclide/coc.nvim", branch = "release" },
+  { "neoclide/coc-emmet" },
   -- {"folke/todo-comments.nvim"},
-  {"AmeerTaweel/todo.nvim"},
+  { "AmeerTaweel/todo.nvim" },
+  "posva/vim-vue",
+  "yaegassy/coc-volar",
+  "yaegassy/coc-volar-tools",
 
   -- "andweeb/presence.nvim",
   -- {
