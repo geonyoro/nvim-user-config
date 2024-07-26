@@ -32,6 +32,10 @@ return {
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
+    ["<leader>mi"] = { "<cmd>GoIfErr<CR>", desc = "Go If Err" },
+    ["<leader>mt"] = { "<cmd>GoMod tidy<CR>", desc = "Go Mod Tidy" },
+    ["<leader>maj"] = { "<cmd>GoTagAdd json<CR>", desc = "Go Add Json Tag" },
+    ["<leader>may"] = { "<cmd>GoTagAdd yaml<CR>", desc = "Go Mod Yaml Tag" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
