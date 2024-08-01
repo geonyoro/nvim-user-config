@@ -67,6 +67,7 @@ return {
     },
     build = function() vim.cmd.GoInstallDeps() end,
   },
+  { "olrtg/emmet-language-server" },
 
   -- "andweeb/presence.nvim",
   -- {

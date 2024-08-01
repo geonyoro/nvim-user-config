@@ -4,24 +4,24 @@ return {
     "navarasu/onedark.nvim",
     name = "onedark",
     config = function()
-      require('onedark').setup {
+      require("onedark").setup {
         -- term_colors = false,
-        style = 'darker',
+        style = "darker",
         -- code_style = {
         --   keywords = 'bold',
         -- }
       }
-    end
+    end,
   },
   {
     "loctvl842/monokai-pro.nvim",
     name = "monokai-pro",
     config = function()
-      require("monokai-pro").setup({
-        -- filter = "octagon"
-        -- filter = "classic"
-        -- filter = "machine"
-      })
-    end
-  }
+      require("monokai-pro").setup {
+        -- filter = "octagon",
+        -- filter = "classic",
+        filter = "machine",
+      }
+    end,
+  },
 }
